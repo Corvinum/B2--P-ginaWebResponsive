@@ -1,0 +1,75 @@
+/*Importo una fuente para poder usarla en toda la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*Predetermino todas los elementos con el selector universal*/
+* {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  color: #E4EBF1;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{background-size: 100%;}
+
+h1{
+  color: black;
+  font-size: 3rem;
+}
+
+h2{color: #4aa8cf;}
+
+p{color: black;}
+
+#header{
+  display: flex;
+  background-color: #38597F; 
+  justify-content:space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+#navbar-links{
+  background-color: e4ebf1;
+  display: flex;
+  flex-direction: row;
+}
+#navbar-links li{
+  list-style-type: none;
+  margin: 0 2rem;
+  font-weight: 600;
+}
+
+#navbar-links a{
+  padding: 1.2rem;
+}
+
+#navbar-links a:hover{
+  background-color: #09283D;
+  
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Me encargo de posicionar el footer debajo al final siempre*/
+#footer{
+  background-color: #09283D;
+  bottom: 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#social-media img{
+  width: 4rem;
+}
+
+/*Pequeña animación de los iconos de rede sociales.*/
+#social-media img:hover{
+  width: 4.5rem;
+}

@@ -1,0 +1,11 @@
+h1{
+  margin: 1%;
+  text-align: center;
+}
+
+#sobre-contenedor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
